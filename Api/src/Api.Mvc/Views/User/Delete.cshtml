@@ -1,0 +1,55 @@
+﻿@model Api.Mvc.Models.UserModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<br />
+<h2>Deletar</h2>
+
+<h3>Deseja deletar este funcionário ?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaritalStatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaritalStatus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SpouseName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SpouseName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SpouseBirthDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SpouseBirthDate)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-primary" /> |
+        <a asp-action="Index">Retorna para a Lista</a>
+    </form>
+</div>

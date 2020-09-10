@@ -1,0 +1,59 @@
+﻿@model Api.Mvc.Models.UserModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<br />
+<h2>Alterar dados</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MaritalStatus" class="control-label"></label>
+                <input asp-for="MaritalStatus" class="form-control" />
+                <span asp-validation-for="MaritalStatus" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BirthDate" class="control-label"></label>
+                <input asp-for="BirthDate" class="form-control" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SpouseName" class="control-label"></label>
+                <input asp-for="SpouseName" class="form-control" />
+                <span asp-validation-for="SpouseName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="SpouseBirthDate" class="control-label"></label>
+                <input asp-for="SpouseBirthDate" class="form-control" />
+                <span asp-validation-for="SpouseBirthDate" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Salvar dados" class="btn btn-primary" />
+            </div>
+            
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Retornar para Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

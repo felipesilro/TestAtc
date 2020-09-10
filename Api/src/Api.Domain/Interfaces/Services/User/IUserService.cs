@@ -1,0 +1,16 @@
+using System;
+using Api.Domain.Entities;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+
+namespace Api.Domain.Interfaces.Services.User
+{
+    public interface IUserService
+    {
+        Task<UserEntity> Get(int id);
+        Task<IEnumerable<UserEntity>> GetAll();
+        Task<UserEntity> Post(UserEntity user);
+        Task<UserEntity> Put(UserEntity user);
+        Task<bool> Delete(int id);
+    }
+}
