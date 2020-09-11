@@ -1,1 +1,98 @@
-[{"Name":"Felipe Silva","MaritalStatus":"Casado","BirthDate":null,"SpouseName":null,"SpouseBirthDate":null,"Id":2},{"Name":"Ivan Moreira ","MaritalStatus":"Casado","BirthDate":null,"SpouseName":"Caroline","SpouseBirthDate":null,"Id":3},{"Name":"CarolineOliveira","MaritalStatus":"Casado","BirthDate":"2020-09-24T20:00:00","SpouseName":"Ivan","SpouseBirthDate":"2020-09-10T20:00:00","Id":4},{"Name":"Carlos","MaritalStatus":"Casado","BirthDate":"1993-01-04T00:00:00","SpouseName":"Renata","SpouseBirthDate":"1992-08-10T07:00:00","Id":5},{"Name":"João","MaritalStatus":"Solteiro","BirthDate":"1993-01-04T00:00:00","SpouseName":"","SpouseBirthDate":null,"Id":6},{"Name":"Maria","MaritalStatus":"Solteiro","BirthDate":"1993-01-04T00:00:00","SpouseName":"","SpouseBirthDate":null,"Id":7},{"Name":"Rosa","MaritalStatus":"Solteiro","BirthDate":"1993-01-04T00:00:00","SpouseName":"","SpouseBirthDate":null,"Id":8},{"Name":"Magalu","MaritalStatus":"Solteiro","BirthDate":"1993-01-04T00:00:00","SpouseName":"","SpouseBirthDate":null,"Id":9},{"Name":"Via Varejo","MaritalStatus":"Cassado","BirthDate":"1993-01-04T00:00:00","SpouseName":"Paulo Guedes","SpouseBirthDate":null,"Id":10},{"Name":"Azul","MaritalStatus":"Casado","BirthDate":"1993-01-04T00:00:00","SpouseName":"Gol","SpouseBirthDate":null,"Id":11},{"Name":"Eletrobras","MaritalStatus":"Casado","BirthDate":"1993-01-04T00:00:00","SpouseName":"Engie","SpouseBirthDate":null,"Id":11},{"Name":"Caroline Oliveira","MaritalStatus":"Casado","BirthDate":null,"SpouseName":"Ivan","SpouseBirthDate":null,"Id":12},{"Name":"tttttt","MaritalStatus":"tttt","BirthDate":null,"SpouseName":null,"SpouseBirthDate":null,"Id":13}]
+[
+    {
+      "Name": "Felipe Silva",
+      "MaritalStatus": "Casado",
+      "BirthDate": null,
+      "SpouseName": null,
+      "SpouseBirthDate": null,
+      "Id": 2
+    },
+    {
+      "Name": "Ivan",
+      "MaritalStatus": "Casado",
+      "BirthDate": null,
+      "SpouseName": "Maria",
+      "SpouseBirthDate": null,
+      "Id": 3
+    },
+    {
+      "Name": "Carol",
+      "MaritalStatus": "Casado",
+      "BirthDate": "2020-09-24T20:00:00",
+      "SpouseName": "João",
+      "SpouseBirthDate": "2020-09-10T20:00:00",
+      "Id": 4
+    },
+    {
+      "Name": "Carlos",
+      "MaritalStatus": "Casado",
+      "BirthDate": "1993-01-04T00:00:00",
+      "SpouseName": "Renata",
+      "SpouseBirthDate": "1992-08-10T07:00:00",
+      "Id": 5
+    },
+    {
+      "Name": "João",
+      "MaritalStatus": "Solteiro",
+      "BirthDate": "1993-01-04T00:00:00",
+      "SpouseName": "",
+      "SpouseBirthDate": null,
+      "Id": 6
+    },
+    {
+      "Name": "Maria",
+      "MaritalStatus": "Solteiro",
+      "BirthDate": "1993-01-04T00:00:00",
+      "SpouseName": "",
+      "SpouseBirthDate": null,
+      "Id": 7
+    },
+    {
+      "Name": "Rosa",
+      "MaritalStatus": "Solteiro",
+      "BirthDate": "1993-01-04T00:00:00",
+      "SpouseName": "",
+      "SpouseBirthDate": null,
+      "Id": 8
+    },
+    {
+      "Name": "Magalu",
+      "MaritalStatus": "Solteiro",
+      "BirthDate": "1993-01-04T00:00:00",
+      "SpouseName": "",
+      "SpouseBirthDate": null,
+      "Id": 9
+    },
+    {
+      "Name": "Via Varejo",
+      "MaritalStatus": "Cassado",
+      "BirthDate": "1993-01-04T00:00:00",
+      "SpouseName": "Paulo Guedes",
+      "SpouseBirthDate": null,
+      "Id": 10
+    },
+    {
+      "Name": "Azul",
+      "MaritalStatus": "Casado",
+      "BirthDate": "1993-01-04T00:00:00",
+      "SpouseName": "Gol",
+      "SpouseBirthDate": null,
+      "Id": 11
+    },
+    {
+      "Name": "Eletrobras",
+      "MaritalStatus": "Casado",
+      "BirthDate": "1993-01-04T00:00:00",
+      "SpouseName": "Engie",
+      "SpouseBirthDate": null,
+      "Id": 11
+    },
+    {
+      "Name": "Julia",
+      "MaritalStatus": "Casado",
+      "BirthDate": null,
+      "SpouseName": "Roberto",
+      "SpouseBirthDate": null,
+      "Id": 12
+    }
+  ]
