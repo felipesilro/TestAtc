@@ -5,5 +5,7 @@
 Git clone https://github.com/felipesilro/TestAtc
 ```
 
-2) Abrir Projeto no VsCode
+2) Abrir VsCode no diretório /API
+
+3) Restaurar pacotes
 
