@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Api.Application/Application.csproj",
+                "${workspaceFolder}/Api.Application/Application.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/Api.Mvc/Api.Mvc.csproj"
+                "${workspaceFolder}/Api.Mvc/Api.Mvc.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
